@@ -15,6 +15,15 @@ public class Demo {
     private String empphone;
     private String empemail;
     private String empnumber;
+    private String empDemo;
+
+    public String getEmpDemo() {
+        return empDemo;
+    }
+
+    public void setEmpDemo(String empDemo) {
+        this.empDemo = empDemo;
+    }
 
     public String getEmpnumber() {
         return empnumber;
@@ -91,6 +100,7 @@ public class Demo {
                 ", empphone='" + empphone + '\'' +
                 ", empemail='" + empemail + '\'' +
                 ", empnumber='" + empnumber + '\'' +
+                ", empDemo='" + empDemo + '\'' +
                 '}';
     }
 }
